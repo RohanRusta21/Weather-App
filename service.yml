@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: weather-app
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: weather-app
   ports:
